@@ -1,0 +1,488 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.color-text{
+    color: #000000;
+}
+
+.nav-frozen{
+    position: fixed;
+    background-color: white;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    /* justify-content: center; */
+    gap: 20px 0px; 
+    /* background-color: kblac; */
+}
+.nav-start{
+
+    padding: 10px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+   
+}
+
+
+.nav-search{
+    width: 80%;
+    height: 100%;
+    border: 3px solid #dee2e6;
+    background-color: #dee2e6;
+    border-radius: 50em;
+    padding: 10px;
+    display: flex;
+    
+}
+.nav-img{
+
+   padding: 10px;
+   
+} 
+
+.nav-img:hover{
+    background-color: #dee2e6;
+    border-radius: 100em;
+  
+}
+
+.nav-start:hover{
+    background-color: #000000;
+    border-radius: 100em;
+    
+    
+}
+.color-text:hover{
+    
+    color: white;
+}
+
+.logo{
+    height: 24px;
+    width: 24px;
+    
+}
+.iconos3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50%;
+    
+   
+
+
+}
+.nav-profile{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+.nav-bell{
+    height: 30px;
+    width: 30px;
+   
+}
+
+.nav-bell:hover{
+  
+    background-color: #dee2e6;
+    border-radius: 100em;
+    
+}
+.nav-comments:hover{
+  
+    background-color: #dee2e6;
+    border-radius: 100em;
+    
+}
+.nav-profile:hover{
+  
+    background-color: #dee2e6;
+    border-radius: 100em;
+    
+}
+.nav-info:hover{
+  
+    background-color: #dee2e6;
+    border-radius: 100em;
+    
+}
+.nav-comments{
+    height: 30px;
+    width: 30px;
+    /* align-items: center; */
+    
+}
+.nav-info{
+    height: 30px;
+    width: 30px;
+    /* align-items: center; */
+    
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+}
+.finder{
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+
+
+
+#content{
+    
+display: inline-block;
+flex-direction: row;
+flex-wrap: wrap;
+columns: 5 200px;
+padding: 7px;
+margin-top: 90px;
+
+    
+}  
+ .card-image{
+    position: relative;
+   padding:5px 0px;
+   
+ } 
+
+ .button1{
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 5%;
+    display: none;
+ }
+
+button{
+    background-color: rgb(193, 10, 10);
+    border: none;
+    border-radius: 50em;
+    height: 50px;
+    width: 100px;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    
+   
+}
+.more{
+    position: absolute;
+    padding-top: 130%;
+    padding-left: 80%;
+    display: none;
+ }
+ .morebutton{
+    width: 40px;
+    height: 40px;
+    
+ }
+ .share{
+    position: absolute;
+    display: none;
+    padding-top: 130%;
+    padding-left: 60%;
+ }
+ .sharebutton{
+    width: 40px;
+    height: 40px;
+   ;
+ }
+
+ .moreG{
+    position: absolute;
+    padding-top: 190%;
+    padding-left: 80%;
+    display: none;
+ }
+
+ .shareG{
+    position: absolute;
+    display: none;
+    padding-top: 190%;
+    padding-left: 60%;
+ }
+ .moreM{
+    position: absolute;
+    padding-top: 110%;
+    padding-left: 80%;
+    display: none;
+ }
+
+ .shareM{
+    position: absolute;
+    display: none;
+    padding-top: 110%;
+    padding-left: 60%;
+ }
+ .moreMG{
+    position: absolute;
+    padding-top: 150%;
+    padding-left: 80%;
+      display: none;
+ }
+
+ .shareMG{
+    position: absolute;
+    display: none; 
+    padding-top: 150%;
+    padding-left: 60%;
+ } 
+ .moreS{
+    position: absolute;
+    padding-top: 100%;
+    padding-left: 80%;
+    display: none; 
+ }
+
+ .shareS{
+    position: absolute;
+    display: none;
+    padding-top: 100%;
+    padding-left: 60%;
+ }
+ .moreXS{
+    position: absolute;
+    padding-top: 70%;
+    padding-left: 80%;
+  display: none;
+ }
+
+ .shareXS{
+    position: absolute;
+    display: none;
+    padding-top: 70%;
+    padding-left: 60%;
+ }
+ 
+.card-image:hover
+{
+    filter: brightness(0.8);
+    .button1{
+        display: inline-block;
+    }
+    .more{
+        display: inline-block;
+    }
+    .share{
+        display: inline-block;
+    }
+
+    .moreG{
+        display: inline-block;
+    }
+    .shareG{
+        display: inline-block;
+    }
+    .moreM{
+        display: inline-block;
+    }
+    .shareM{
+        display: inline-block;
+    }
+    .moreMG{
+        display: inline-block;
+    }
+    .shareMG{
+        display: inline-block;
+    }
+    .moreS{
+        display: inline-block;
+    }
+    .shareS{
+        display: inline-block;
+    }
+    .moreXS{
+        display: inline-block;
+    }
+    .shareXS{
+        display: inline-block;
+    }
+  
+  }
+
+
+.pic1{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+.pic2{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+.pic3{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic4{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic5{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic6{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic7{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.pic8{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic9{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic10{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.pic11{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic12{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic13{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic14{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic15{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic16{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic17{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic18{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic19{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic20{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic21{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic22{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic23{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic24{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic25{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic26{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic27{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic28{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic29{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic30{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic31{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.pic32{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+
